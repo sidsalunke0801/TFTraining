@@ -2,6 +2,8 @@ echo "# tfnov24" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
+ git config --global user.email "salunkesiddhu53@gmail.com"
+  git config --global user.name "Siddhesh"
 git branch -M main
 git remote add origin https://github.com/abdulshajahan/tfnov24.git
 git push -u origin main
